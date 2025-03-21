@@ -782,6 +782,7 @@ class InterfaceTypeChoices(ChoiceSet):
     TYPE_25GE_SFP28 = "25gbase-x-sfp28"
     TYPE_50GE_SFP56 = "50gbase-x-sfp56"
     TYPE_40GE_QSFP_PLUS = "40gbase-x-qsfpp"
+    TYPE_40GE_SFP_PLUS = "40gbase-x-sfpp"
     TYPE_50GE_QSFP28 = "50gbase-x-sfp28"
     TYPE_100GE_CFP = "100gbase-x-cfp"
     TYPE_100GE_CFP2 = "100gbase-x-cfp2"
@@ -958,6 +959,7 @@ class InterfaceTypeChoices(ChoiceSet):
                 (TYPE_25GE_SFP28, "SFP28 (25GE)"),
                 (TYPE_50GE_SFP56, "SFP56 (50GE)"),
                 (TYPE_40GE_QSFP_PLUS, "QSFP+ (40GE)"),
+                (TYPE_40GE_SFP_PLUS, "SFP+ (40GE)"),
                 (TYPE_50GE_QSFP28, "QSFP28 (50GE)"),
                 (TYPE_100GE_CFP, "CFP (100GE)"),
                 (TYPE_100GE_CFP2, "CFP2 (100GE)"),
